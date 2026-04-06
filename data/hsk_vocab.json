@@ -1,0 +1,5121 @@
+{
+  "meta": {
+    "total": 706,
+    "version": "1.0",
+    "description": "Từ vựng HSK 1-6 cho người học tiếng Trung",
+    "levels": {
+      "1": {
+        "name": "HSK 1 - Sơ cấp",
+        "count": 121,
+        "color": "#1D9E75"
+      },
+      "2": {
+        "name": "HSK 2 - Sơ trung",
+        "count": 149,
+        "color": "#3B6D11"
+      },
+      "3": {
+        "name": "HSK 3 - Trung cấp",
+        "count": 149,
+        "color": "#BA7517"
+      },
+      "4": {
+        "name": "HSK 4 - Trung cao",
+        "count": 95,
+        "color": "#E24B4A"
+      },
+      "5": {
+        "name": "HSK 5 - Cao cấp",
+        "count": 102,
+        "color": "#A32D2D"
+      },
+      "6": {
+        "name": "HSK 6 - Thành thạo",
+        "count": 90,
+        "color": "#501313"
+      }
+    }
+  },
+  "topics": {
+    "chao_hoi": {
+      "name": "Chào hỏi & Giao tiếp",
+      "icon": "👋"
+    },
+    "so_dem": {
+      "name": "Số đếm",
+      "icon": "🔢"
+    },
+    "thoi_gian": {
+      "name": "Thời gian",
+      "icon": "🕐"
+    },
+    "gia_dinh": {
+      "name": "Gia đình",
+      "icon": "👨‍👩‍👧"
+    },
+    "am_thuc": {
+      "name": "Ẩm thực",
+      "icon": "🍜"
+    },
+    "dia_diem": {
+      "name": "Địa điểm & Di chuyển",
+      "icon": "📍"
+    },
+    "hoc_tap": {
+      "name": "Học tập",
+      "icon": "📚"
+    },
+    "dong_tu": {
+      "name": "Động từ cơ bản",
+      "icon": "⚡"
+    },
+    "tinh_tu": {
+      "name": "Tính từ cơ bản",
+      "icon": "✨"
+    },
+    "ngu_phap": {
+      "name": "Ngữ pháp & Liên từ",
+      "icon": "📝"
+    },
+    "cong_viec": {
+      "name": "Công việc & Văn phòng",
+      "icon": "💼"
+    },
+    "suc_khoe": {
+      "name": "Sức khỏe",
+      "icon": "💊"
+    },
+    "mua_sam": {
+      "name": "Mua sắm",
+      "icon": "🛍️"
+    },
+    "thoi_tiet": {
+      "name": "Thời tiết & Mùa",
+      "icon": "🌤️"
+    },
+    "giai_tri": {
+      "name": "Giải trí",
+      "icon": "🎵"
+    },
+    "kinh_doanh": {
+      "name": "Kinh doanh",
+      "icon": "📊"
+    },
+    "du_lich": {
+      "name": "Du lịch & Giao thông",
+      "icon": "✈️"
+    },
+    "giao_duc": {
+      "name": "Giáo dục",
+      "icon": "🎓"
+    },
+    "cam_xuc": {
+      "name": "Cảm xúc & Tâm lý",
+      "icon": "❤️"
+    },
+    "thien_nhien": {
+      "name": "Thiên nhiên & Môi trường",
+      "icon": "🌿"
+    },
+    "xa_hoi": {
+      "name": "Xã hội & Chính trị",
+      "icon": "🏛️"
+    },
+    "cong_nghe": {
+      "name": "Khoa học & Công nghệ",
+      "icon": "💻"
+    },
+    "y_hoc": {
+      "name": "Y học",
+      "icon": "🏥"
+    },
+    "quan_he": {
+      "name": "Quan hệ xã hội",
+      "icon": "🤝"
+    },
+    "van_hoc": {
+      "name": "Nghệ thuật & Văn học",
+      "icon": "🎨"
+    },
+    "hoc_thuat": {
+      "name": "Học thuật & Triết học",
+      "icon": "🔬"
+    },
+    "kinh_te": {
+      "name": "Kinh tế & Tài chính",
+      "icon": "💰"
+    },
+    "khoa_hoc": {
+      "name": "Khoa học tự nhiên",
+      "icon": "⚗️"
+    },
+    "chinh_tri": {
+      "name": "Chính trị & Quốc tế",
+      "icon": "🌐"
+    },
+    "tam_ly": {
+      "name": "Tâm lý học",
+      "icon": "🧠"
+    },
+    "thanh_ngu": {
+      "name": "Thành ngữ & Tục ngữ",
+      "icon": "📜"
+    },
+    "nha_cua": {
+      "name": "Nhà cửa & Đồ dùng",
+      "icon": "🏠"
+    },
+    "kien_truc": {
+      "name": "Đô thị & Kiến trúc",
+      "icon": "🏙️"
+    },
+    "quan_ly": {
+      "name": "Quản trị & Lãnh đạo",
+      "icon": "👔"
+    }
+  },
+  "words": [
+    {
+      "h": "你好",
+      "p": "nǐ hǎo",
+      "v": "Xin chào",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "谢谢",
+      "p": "xiè xie",
+      "v": "Cảm ơn",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "再见",
+      "p": "zài jiàn",
+      "v": "Tạm biệt",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "对不起",
+      "p": "duì bu qǐ",
+      "v": "Xin lỗi",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "没关系",
+      "p": "méi guān xi",
+      "v": "Không sao",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "是",
+      "p": "shì",
+      "v": "Là, đúng",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "不",
+      "p": "bù",
+      "v": "Không",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "好",
+      "p": "hǎo",
+      "v": "Tốt, ổn",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "请",
+      "p": "qǐng",
+      "v": "Xin, mời",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "我",
+      "p": "wǒ",
+      "v": "Tôi",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "你",
+      "p": "nǐ",
+      "v": "Bạn, anh, chị",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "他",
+      "p": "tā",
+      "v": "Anh ấy, ông ấy",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "她",
+      "p": "tā",
+      "v": "Cô ấy, bà ấy",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "我们",
+      "p": "wǒ men",
+      "v": "Chúng tôi",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "你们",
+      "p": "nǐ men",
+      "v": "Các bạn",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "他们",
+      "p": "tā men",
+      "v": "Họ (nam)",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "什么",
+      "p": "shén me",
+      "v": "Cái gì, gì",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "哪",
+      "p": "nǎ",
+      "v": "Nào, đâu",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "哪儿",
+      "p": "nǎr",
+      "v": "Ở đâu",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "几",
+      "p": "jǐ",
+      "v": "Mấy, bao nhiêu",
+      "t": "chao_hoi",
+      "l": 1
+    },
+    {
+      "h": "一",
+      "p": "yī",
+      "v": "Một",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "二",
+      "p": "èr",
+      "v": "Hai",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "三",
+      "p": "sān",
+      "v": "Ba",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "四",
+      "p": "sì",
+      "v": "Bốn",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "五",
+      "p": "wǔ",
+      "v": "Năm",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "六",
+      "p": "liù",
+      "v": "Sáu",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "七",
+      "p": "qī",
+      "v": "Bảy",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "八",
+      "p": "bā",
+      "v": "Tám",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "九",
+      "p": "jiǔ",
+      "v": "Chín",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "十",
+      "p": "shí",
+      "v": "Mười",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "百",
+      "p": "bǎi",
+      "v": "Trăm",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "千",
+      "p": "qiān",
+      "v": "Nghìn",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "万",
+      "p": "wàn",
+      "v": "Mười nghìn",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "零",
+      "p": "líng",
+      "v": "Không (số)",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "两",
+      "p": "liǎng",
+      "v": "Hai (dùng với danh từ)",
+      "t": "so_dem",
+      "l": 1
+    },
+    {
+      "h": "今天",
+      "p": "jīn tiān",
+      "v": "Hôm nay",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "明天",
+      "p": "míng tiān",
+      "v": "Ngày mai",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "昨天",
+      "p": "zuó tiān",
+      "v": "Hôm qua",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "年",
+      "p": "nián",
+      "v": "Năm",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "月",
+      "p": "yuè",
+      "v": "Tháng",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "日",
+      "p": "rì",
+      "v": "Ngày",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "时候",
+      "p": "shí hou",
+      "v": "Lúc, khi",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "现在",
+      "p": "xiàn zài",
+      "v": "Bây giờ",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "上午",
+      "p": "shàng wǔ",
+      "v": "Buổi sáng",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "下午",
+      "p": "xià wǔ",
+      "v": "Buổi chiều",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "中午",
+      "p": "zhōng wǔ",
+      "v": "Buổi trưa",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "晚上",
+      "p": "wǎn shang",
+      "v": "Buổi tối",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "星期",
+      "p": "xīng qī",
+      "v": "Tuần, thứ",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "号",
+      "p": "hào",
+      "v": "Ngày (trong tháng)",
+      "t": "thoi_gian",
+      "l": 1
+    },
+    {
+      "h": "爸爸",
+      "p": "bà ba",
+      "v": "Bố",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "妈妈",
+      "p": "mā ma",
+      "v": "Mẹ",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "哥哥",
+      "p": "gē ge",
+      "v": "Anh trai",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "姐姐",
+      "p": "jiě jie",
+      "v": "Chị gái",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "弟弟",
+      "p": "dì di",
+      "v": "Em trai",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "妹妹",
+      "p": "mèi mei",
+      "v": "Em gái",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "儿子",
+      "p": "ér zi",
+      "v": "Con trai",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "女儿",
+      "p": "nǚ ér",
+      "v": "Con gái",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "朋友",
+      "p": "péng you",
+      "v": "Bạn bè",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "人",
+      "p": "rén",
+      "v": "Người",
+      "t": "gia_dinh",
+      "l": 1
+    },
+    {
+      "h": "吃",
+      "p": "chī",
+      "v": "Ăn",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "喝",
+      "p": "hē",
+      "v": "Uống",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "饭",
+      "p": "fàn",
+      "v": "Cơm, bữa ăn",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "水",
+      "p": "shuǐ",
+      "v": "Nước",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "茶",
+      "p": "chá",
+      "v": "Trà",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "咖啡",
+      "p": "kā fēi",
+      "v": "Cà phê",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "米饭",
+      "p": "mǐ fàn",
+      "v": "Cơm trắng",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "面条",
+      "p": "miàn tiáo",
+      "v": "Mì sợi",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "苹果",
+      "p": "píng guǒ",
+      "v": "Táo",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "牛奶",
+      "p": "niú nǎi",
+      "v": "Sữa bò",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "鸡蛋",
+      "p": "jī dàn",
+      "v": "Trứng gà",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "肉",
+      "p": "ròu",
+      "v": "Thịt",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "鱼",
+      "p": "yú",
+      "v": "Cá",
+      "t": "am_thuc",
+      "l": 1
+    },
+    {
+      "h": "学校",
+      "p": "xué xiào",
+      "v": "Trường học",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "家",
+      "p": "jiā",
+      "v": "Nhà, gia đình",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "医院",
+      "p": "yī yuàn",
+      "v": "Bệnh viện",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "商店",
+      "p": "shāng diàn",
+      "v": "Cửa hàng",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "饭店",
+      "p": "fàn diàn",
+      "v": "Nhà hàng",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "去",
+      "p": "qù",
+      "v": "Đi (đến)",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "来",
+      "p": "lái",
+      "v": "Đến, lại",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "在",
+      "p": "zài",
+      "v": "Ở, đang",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "里",
+      "p": "lǐ",
+      "v": "Trong, ở trong",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "出租车",
+      "p": "chū zū chē",
+      "v": "Taxi",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "飞机",
+      "p": "fēi jī",
+      "v": "Máy bay",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "火车",
+      "p": "huǒ chē",
+      "v": "Tàu hỏa",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "北京",
+      "p": "Běi jīng",
+      "v": "Bắc Kinh",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "中国",
+      "p": "Zhōng guó",
+      "v": "Trung Quốc",
+      "t": "dia_diem",
+      "l": 1
+    },
+    {
+      "h": "学习",
+      "p": "xué xí",
+      "v": "Học tập",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "汉语",
+      "p": "Hàn yǔ",
+      "v": "Tiếng Trung",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "老师",
+      "p": "lǎo shī",
+      "v": "Giáo viên",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "学生",
+      "p": "xué shēng",
+      "v": "Học sinh",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "书",
+      "p": "shū",
+      "v": "Sách",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "写",
+      "p": "xiě",
+      "v": "Viết",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "读",
+      "p": "dú",
+      "v": "Đọc",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "说",
+      "p": "shuō",
+      "v": "Nói",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "听",
+      "p": "tīng",
+      "v": "Nghe",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "字",
+      "p": "zì",
+      "v": "Chữ, ký tự",
+      "t": "hoc_tap",
+      "l": 1
+    },
+    {
+      "h": "有",
+      "p": "yǒu",
+      "v": "Có",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "没有",
+      "p": "méi yǒu",
+      "v": "Không có",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "要",
+      "p": "yào",
+      "v": "Muốn, cần",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "能",
+      "p": "néng",
+      "v": "Có thể, có khả năng",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "会",
+      "p": "huì",
+      "v": "Biết (làm), sẽ",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "想",
+      "p": "xiǎng",
+      "v": "Muốn, nghĩ",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "看",
+      "p": "kàn",
+      "v": "Xem, nhìn",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "买",
+      "p": "mǎi",
+      "v": "Mua",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "做",
+      "p": "zuò",
+      "v": "Làm",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "开",
+      "p": "kāi",
+      "v": "Mở, lái",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "打电话",
+      "p": "dǎ diàn huà",
+      "v": "Gọi điện thoại",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "叫",
+      "p": "jiào",
+      "v": "Gọi là, tên là",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "坐",
+      "p": "zuò",
+      "v": "Ngồi, đi (phương tiện)",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "住",
+      "p": "zhù",
+      "v": "Sống, ở",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "睡觉",
+      "p": "shuì jiào",
+      "v": "Ngủ",
+      "t": "dong_tu",
+      "l": 1
+    },
+    {
+      "h": "大",
+      "p": "dà",
+      "v": "To, lớn",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "小",
+      "p": "xiǎo",
+      "v": "Nhỏ, bé",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "多",
+      "p": "duō",
+      "v": "Nhiều",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "少",
+      "p": "shǎo",
+      "v": "Ít",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "冷",
+      "p": "lěng",
+      "v": "Lạnh",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "热",
+      "p": "rè",
+      "v": "Nóng",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "高兴",
+      "p": "gāo xìng",
+      "v": "Vui mừng",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "漂亮",
+      "p": "piào liang",
+      "v": "Đẹp",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "贵",
+      "p": "guì",
+      "v": "Đắt",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "喜欢",
+      "p": "xǐ huān",
+      "v": "Thích",
+      "t": "tinh_tu",
+      "l": 1
+    },
+    {
+      "h": "但是",
+      "p": "dàn shì",
+      "v": "Nhưng mà",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "因为",
+      "p": "yīn wèi",
+      "v": "Vì, bởi vì",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "所以",
+      "p": "suǒ yǐ",
+      "v": "Cho nên, vì vậy",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "如果",
+      "p": "rú guǒ",
+      "v": "Nếu như",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "虽然",
+      "p": "suī rán",
+      "v": "Mặc dù",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "还是",
+      "p": "hái shì",
+      "v": "Vẫn là, hay là",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "或者",
+      "p": "huò zhě",
+      "v": "Hoặc là",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "而且",
+      "p": "ér qiě",
+      "v": "Hơn nữa, và",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "一起",
+      "p": "yī qǐ",
+      "v": "Cùng nhau",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "已经",
+      "p": "yǐ jīng",
+      "v": "Đã, rồi",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "还",
+      "p": "hái",
+      "v": "Còn, vẫn",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "就",
+      "p": "jiù",
+      "v": "Liền, thì",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "都",
+      "p": "dōu",
+      "v": "Đều, cả",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "也",
+      "p": "yě",
+      "v": "Cũng",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "最",
+      "p": "zuì",
+      "v": "Nhất",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "非常",
+      "p": "fēi cháng",
+      "v": "Rất, vô cùng",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "太",
+      "p": "tài",
+      "v": "Quá, rất",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "真",
+      "p": "zhēn",
+      "v": "Thật, thực sự",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "更",
+      "p": "gèng",
+      "v": "Càng, hơn",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "一些",
+      "p": "yī xiē",
+      "v": "Một ít, một số",
+      "t": "ngu_phap",
+      "l": 2
+    },
+    {
+      "h": "工作",
+      "p": "gōng zuò",
+      "v": "Làm việc, công việc",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "公司",
+      "p": "gōng sī",
+      "v": "Công ty",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "办公室",
+      "p": "bàn gōng shì",
+      "v": "Văn phòng",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "经理",
+      "p": "jīng lǐ",
+      "v": "Giám đốc, quản lý",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "同事",
+      "p": "tóng shì",
+      "v": "Đồng nghiệp",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "开会",
+      "p": "kāi huì",
+      "v": "Họp",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "问题",
+      "p": "wèn tí",
+      "v": "Vấn đề, câu hỏi",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "方法",
+      "p": "fāng fǎ",
+      "v": "Phương pháp",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "计划",
+      "p": "jì huà",
+      "v": "Kế hoạch",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "结果",
+      "p": "jié guǒ",
+      "v": "Kết quả",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "成功",
+      "p": "chéng gōng",
+      "v": "Thành công",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "失败",
+      "p": "shī bài",
+      "v": "Thất bại",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "努力",
+      "p": "nǔ lì",
+      "v": "Cố gắng",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "认真",
+      "p": "rèn zhēn",
+      "v": "Nghiêm túc, chăm chỉ",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "检查",
+      "p": "jiǎn chá",
+      "v": "Kiểm tra",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "身体",
+      "p": "shēn tǐ",
+      "v": "Cơ thể, sức khỏe",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "生病",
+      "p": "shēng bìng",
+      "v": "Bị bệnh",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "头",
+      "p": "tóu",
+      "v": "Đầu",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "眼睛",
+      "p": "yǎn jing",
+      "v": "Mắt",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "手",
+      "p": "shǒu",
+      "v": "Tay",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "脚",
+      "p": "jiǎo",
+      "v": "Chân",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "药",
+      "p": "yào",
+      "v": "Thuốc",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "疼",
+      "p": "téng",
+      "v": "Đau",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "发烧",
+      "p": "fā shāo",
+      "v": "Sốt",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "休息",
+      "p": "xiū xi",
+      "v": "Nghỉ ngơi",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "运动",
+      "p": "yùn dòng",
+      "v": "Thể thao, vận động",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "健康",
+      "p": "jiàn kāng",
+      "v": "Khỏe mạnh, sức khỏe",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "感冒",
+      "p": "gǎn mào",
+      "v": "Cảm cúm",
+      "t": "suc_khoe",
+      "l": 2
+    },
+    {
+      "h": "钱",
+      "p": "qián",
+      "v": "Tiền",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "块",
+      "p": "kuài",
+      "v": "Đồng (tiền tệ TQ)",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "便宜",
+      "p": "pián yi",
+      "v": "Rẻ",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "多少钱",
+      "p": "duō shao qián",
+      "v": "Bao nhiêu tiền?",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "卖",
+      "p": "mài",
+      "v": "Bán",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "东西",
+      "p": "dōng xi",
+      "v": "Đồ vật, thứ",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "颜色",
+      "p": "yán sè",
+      "v": "Màu sắc",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "红色",
+      "p": "hóng sè",
+      "v": "Màu đỏ",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "白色",
+      "p": "bái sè",
+      "v": "Màu trắng",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "黑色",
+      "p": "hēi sè",
+      "v": "Màu đen",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "衣服",
+      "p": "yī fu",
+      "v": "Quần áo",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "裤子",
+      "p": "kù zi",
+      "v": "Quần",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "鞋",
+      "p": "xié",
+      "v": "Giày",
+      "t": "mua_sam",
+      "l": 2
+    },
+    {
+      "h": "天气",
+      "p": "tiān qì",
+      "v": "Thời tiết",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "下雨",
+      "p": "xià yǔ",
+      "v": "Mưa",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "下雪",
+      "p": "xià xuě",
+      "v": "Tuyết rơi",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "刮风",
+      "p": "guā fēng",
+      "v": "Gió thổi",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "晴",
+      "p": "qíng",
+      "v": "Nắng, quang",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "阴",
+      "p": "yīn",
+      "v": "Âm u, nhiều mây",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "温度",
+      "p": "wēn dù",
+      "v": "Nhiệt độ",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "度",
+      "p": "dù",
+      "v": "Độ",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "春天",
+      "p": "chūn tiān",
+      "v": "Mùa xuân",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "夏天",
+      "p": "xià tiān",
+      "v": "Mùa hè",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "秋天",
+      "p": "qiū tiān",
+      "v": "Mùa thu",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "冬天",
+      "p": "dōng tiān",
+      "v": "Mùa đông",
+      "t": "thoi_tiet",
+      "l": 2
+    },
+    {
+      "h": "电影",
+      "p": "diàn yǐng",
+      "v": "Phim",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "音乐",
+      "p": "yīn yuè",
+      "v": "Âm nhạc",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "唱歌",
+      "p": "chàng gē",
+      "v": "Hát",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "跳舞",
+      "p": "tiào wǔ",
+      "v": "Nhảy múa",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "旅游",
+      "p": "lǚ yóu",
+      "v": "Du lịch",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "照片",
+      "p": "zhào piàn",
+      "v": "Ảnh chụp",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "电视",
+      "p": "diàn shì",
+      "v": "TV, truyền hình",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "手机",
+      "p": "shǒu jī",
+      "v": "Điện thoại di động",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "游泳",
+      "p": "yóu yǒng",
+      "v": "Bơi lội",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "踢足球",
+      "p": "tī zú qiú",
+      "v": "Đá bóng",
+      "t": "giai_tri",
+      "l": 2
+    },
+    {
+      "h": "虽然",
+      "p": "suī rán",
+      "v": "Mặc dù, tuy nhiên",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "尽管",
+      "p": "jǐn guǎn",
+      "v": "Mặc dù, dù cho",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "不仅",
+      "p": "bù jǐn",
+      "v": "Không chỉ",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "除了",
+      "p": "chú le",
+      "v": "Ngoài ra, trừ",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "另外",
+      "p": "lìng wài",
+      "v": "Ngoài ra, thêm vào đó",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "甚至",
+      "p": "shèn zhì",
+      "v": "Thậm chí",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "只有",
+      "p": "zhǐ yǒu",
+      "v": "Chỉ có",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "只要",
+      "p": "zhǐ yào",
+      "v": "Chỉ cần",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "即使",
+      "p": "jí shǐ",
+      "v": "Dù cho, ngay cả khi",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "尤其",
+      "p": "yóu qí",
+      "v": "Đặc biệt là",
+      "t": "ngu_phap",
+      "l": 3
+    },
+    {
+      "h": "市场",
+      "p": "shì chǎng",
+      "v": "Thị trường",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "产品",
+      "p": "chǎn pǐn",
+      "v": "Sản phẩm",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "价格",
+      "p": "jià gé",
+      "v": "Giá cả",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "合同",
+      "p": "hé tong",
+      "v": "Hợp đồng",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "合作",
+      "p": "hé zuò",
+      "v": "Hợp tác",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "竞争",
+      "p": "jìng zhēng",
+      "v": "Cạnh tranh",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "利润",
+      "p": "lì rùn",
+      "v": "Lợi nhuận",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "投资",
+      "p": "tóu zī",
+      "v": "Đầu tư",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "银行",
+      "p": "yín háng",
+      "v": "Ngân hàng",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "账户",
+      "p": "zhàng hù",
+      "v": "Tài khoản",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "收入",
+      "p": "shōu rù",
+      "v": "Thu nhập",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "支出",
+      "p": "zhī chū",
+      "v": "Chi tiêu",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "预算",
+      "p": "yù suàn",
+      "v": "Ngân sách",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "广告",
+      "p": "guǎng gào",
+      "v": "Quảng cáo",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "客户",
+      "p": "kè hù",
+      "v": "Khách hàng",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "服务",
+      "p": "fú wù",
+      "v": "Dịch vụ",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "质量",
+      "p": "zhì liàng",
+      "v": "Chất lượng",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "效率",
+      "p": "xiào lǜ",
+      "v": "Hiệu suất",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "发展",
+      "p": "fā zhǎn",
+      "v": "Phát triển",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "经济",
+      "p": "jīng jì",
+      "v": "Kinh tế",
+      "t": "kinh_doanh",
+      "l": 3
+    },
+    {
+      "h": "护照",
+      "p": "hù zhào",
+      "v": "Hộ chiếu",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "签证",
+      "p": "qiān zhèng",
+      "v": "Thị thực",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "行李",
+      "p": "xíng lǐ",
+      "v": "Hành lý",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "酒店",
+      "p": "jiǔ diàn",
+      "v": "Khách sạn",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "预订",
+      "p": "yù dìng",
+      "v": "Đặt trước",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "旅馆",
+      "p": "lǚ guǎn",
+      "v": "Nhà trọ, khách sạn nhỏ",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "地铁",
+      "p": "dì tiě",
+      "v": "Tàu điện ngầm",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "公共汽车",
+      "p": "gōng gòng qì chē",
+      "v": "Xe buýt",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "高铁",
+      "p": "gāo tiě",
+      "v": "Tàu cao tốc",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "地址",
+      "p": "dì zhǐ",
+      "v": "Địa chỉ",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "方向",
+      "p": "fāng xiàng",
+      "v": "Hướng, phương hướng",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "路口",
+      "p": "lù kǒu",
+      "v": "Ngã tư, ngã ba",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "地图",
+      "p": "dì tú",
+      "v": "Bản đồ",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "景点",
+      "p": "jǐng diǎn",
+      "v": "Điểm tham quan",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "文化",
+      "p": "wén huà",
+      "v": "Văn hóa",
+      "t": "du_lich",
+      "l": 3
+    },
+    {
+      "h": "大学",
+      "p": "dà xué",
+      "v": "Đại học",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "毕业",
+      "p": "bì yè",
+      "v": "Tốt nghiệp",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "专业",
+      "p": "zhuān yè",
+      "v": "Chuyên ngành",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "成绩",
+      "p": "chéng jì",
+      "v": "Thành tích, điểm số",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "考试",
+      "p": "kǎo shì",
+      "v": "Thi cử, kỳ thi",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "作业",
+      "p": "zuò yè",
+      "v": "Bài tập về nhà",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "课",
+      "p": "kè",
+      "v": "Bài học, tiết học",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "教室",
+      "p": "jiào shì",
+      "v": "Phòng học",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "图书馆",
+      "p": "tú shū guǎn",
+      "v": "Thư viện",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "实验",
+      "p": "shí yàn",
+      "v": "Thí nghiệm",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "研究",
+      "p": "yán jiū",
+      "v": "Nghiên cứu",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "知识",
+      "p": "zhī shi",
+      "v": "Kiến thức",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "理解",
+      "p": "lǐ jiě",
+      "v": "Hiểu, lý giải",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "复习",
+      "p": "fù xí",
+      "v": "Ôn tập",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "预习",
+      "p": "yù xí",
+      "v": "Chuẩn bị bài",
+      "t": "giao_duc",
+      "l": 3
+    },
+    {
+      "h": "高兴",
+      "p": "gāo xìng",
+      "v": "Vui vẻ, phấn khởi",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "难过",
+      "p": "nán guò",
+      "v": "Buồn, khó chịu",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "生气",
+      "p": "shēng qì",
+      "v": "Tức giận",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "害怕",
+      "p": "hài pà",
+      "v": "Sợ hãi",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "担心",
+      "p": "dān xīn",
+      "v": "Lo lắng",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "感动",
+      "p": "gǎn dòng",
+      "v": "Xúc động, cảm động",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "满意",
+      "p": "mǎn yì",
+      "v": "Hài lòng",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "失望",
+      "p": "shī wàng",
+      "v": "Thất vọng",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "激动",
+      "p": "jī dòng",
+      "v": "Hứng khởi, kích động",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "紧张",
+      "p": "jǐn zhāng",
+      "v": "Lo lắng, căng thẳng",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "放松",
+      "p": "fàng sōng",
+      "v": "Thư giãn",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "骄傲",
+      "p": "jiāo ào",
+      "v": "Tự hào, kiêu ngạo",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "后悔",
+      "p": "hòu huǐ",
+      "v": "Hối hận",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "希望",
+      "p": "xī wàng",
+      "v": "Hy vọng",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "相信",
+      "p": "xiāng xìn",
+      "v": "Tin tưởng",
+      "t": "cam_xuc",
+      "l": 3
+    },
+    {
+      "h": "环境",
+      "p": "huán jìng",
+      "v": "Môi trường",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "自然",
+      "p": "zì rán",
+      "v": "Tự nhiên",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "山",
+      "p": "shān",
+      "v": "Núi",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "河",
+      "p": "hé",
+      "v": "Sông",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "海",
+      "p": "hǎi",
+      "v": "Biển",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "树",
+      "p": "shù",
+      "v": "Cây",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "花",
+      "p": "huā",
+      "v": "Hoa",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "动物",
+      "p": "dòng wù",
+      "v": "Động vật",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "植物",
+      "p": "zhí wù",
+      "v": "Thực vật",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "空气",
+      "p": "kōng qì",
+      "v": "Không khí",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "污染",
+      "p": "wū rǎn",
+      "v": "Ô nhiễm",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "保护",
+      "p": "bǎo hù",
+      "v": "Bảo vệ",
+      "t": "thien_nhien",
+      "l": 3
+    },
+    {
+      "h": "政府",
+      "p": "zhèng fǔ",
+      "v": "Chính phủ",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "社会",
+      "p": "shè huì",
+      "v": "Xã hội",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "法律",
+      "p": "fǎ lǜ",
+      "v": "Pháp luật",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "权利",
+      "p": "quán lì",
+      "v": "Quyền lợi",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "责任",
+      "p": "zé rèn",
+      "v": "Trách nhiệm",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "义务",
+      "p": "yì wù",
+      "v": "Nghĩa vụ",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "民主",
+      "p": "mín zhǔ",
+      "v": "Dân chủ",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "平等",
+      "p": "píng děng",
+      "v": "Bình đẳng",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "自由",
+      "p": "zì yóu",
+      "v": "Tự do",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "传统",
+      "p": "chuán tǒng",
+      "v": "Truyền thống",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "现代",
+      "p": "xiàn dài",
+      "v": "Hiện đại",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "改革",
+      "p": "gǎi gé",
+      "v": "Cải cách",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "制度",
+      "p": "zhì dù",
+      "v": "Chế độ, hệ thống",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "政策",
+      "p": "zhèng cè",
+      "v": "Chính sách",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "影响",
+      "p": "yǐng xiǎng",
+      "v": "Ảnh hưởng",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "科技",
+      "p": "kē jì",
+      "v": "Khoa học kỹ thuật",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "人工智能",
+      "p": "rén gōng zhì néng",
+      "v": "Trí tuệ nhân tạo",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "网络",
+      "p": "wǎng luò",
+      "v": "Mạng lưới, internet",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "数据",
+      "p": "shù jù",
+      "v": "Dữ liệu",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "软件",
+      "p": "ruǎn jiàn",
+      "v": "Phần mềm",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "硬件",
+      "p": "yìng jiàn",
+      "v": "Phần cứng",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "程序",
+      "p": "chéng xù",
+      "v": "Chương trình",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "发明",
+      "p": "fā míng",
+      "v": "Phát minh",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "创新",
+      "p": "chuàng xīn",
+      "v": "Sáng tạo, đổi mới",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "技术",
+      "p": "jì shù",
+      "v": "Kỹ thuật",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "电子",
+      "p": "diàn zǐ",
+      "v": "Điện tử",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "智能",
+      "p": "zhì néng",
+      "v": "Thông minh",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "系统",
+      "p": "xì tǒng",
+      "v": "Hệ thống",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "功能",
+      "p": "gōng néng",
+      "v": "Chức năng",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "设备",
+      "p": "shè bèi",
+      "v": "Thiết bị",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "安装",
+      "p": "ān zhuāng",
+      "v": "Cài đặt, lắp đặt",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "更新",
+      "p": "gēng xīn",
+      "v": "Cập nhật",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "下载",
+      "p": "xià zài",
+      "v": "Tải xuống",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "上传",
+      "p": "shàng chuán",
+      "v": "Tải lên",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "搜索",
+      "p": "sōu suǒ",
+      "v": "Tìm kiếm",
+      "t": "cong_nghe",
+      "l": 4
+    },
+    {
+      "h": "手术",
+      "p": "shǒu shù",
+      "v": "Phẫu thuật",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "症状",
+      "p": "zhèng zhuàng",
+      "v": "Triệu chứng",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "治疗",
+      "p": "zhì liáo",
+      "v": "Điều trị",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "诊断",
+      "p": "zhěn duàn",
+      "v": "Chẩn đoán",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "预防",
+      "p": "yù fáng",
+      "v": "Phòng ngừa",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "营养",
+      "p": "yíng yǎng",
+      "v": "Dinh dưỡng",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "维生素",
+      "p": "wéi shēng sù",
+      "v": "Vitamin",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "蛋白质",
+      "p": "dàn bái zhì",
+      "v": "Protein",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "血压",
+      "p": "xuè yā",
+      "v": "Huyết áp",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "心脏",
+      "p": "xīn zàng",
+      "v": "Tim",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "肺",
+      "p": "fèi",
+      "v": "Phổi",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "胃",
+      "p": "wèi",
+      "v": "Dạ dày",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "骨折",
+      "p": "gǔ zhé",
+      "v": "Gãy xương",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "急救",
+      "p": "jí jiù",
+      "v": "Cấp cứu",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "康复",
+      "p": "kāng fù",
+      "v": "Phục hồi",
+      "t": "y_hoc",
+      "l": 4
+    },
+    {
+      "h": "婚姻",
+      "p": "hūn yīn",
+      "v": "Hôn nhân",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "离婚",
+      "p": "lí hūn",
+      "v": "Ly hôn",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "恋爱",
+      "p": "liàn ài",
+      "v": "Yêu đương",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "友谊",
+      "p": "yǒu yì",
+      "v": "Tình bạn",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "信任",
+      "p": "xìn rèn",
+      "v": "Tin tưởng",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "尊重",
+      "p": "zūn zhòng",
+      "v": "Tôn trọng",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "理解",
+      "p": "lǐ jiě",
+      "v": "Thông cảm, lý giải",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "沟通",
+      "p": "gōu tōng",
+      "v": "Giao tiếp, liên lạc",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "矛盾",
+      "p": "máo dùn",
+      "v": "Mâu thuẫn",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "争吵",
+      "p": "zhēng chǎo",
+      "v": "Cãi nhau",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "和解",
+      "p": "hé jiě",
+      "v": "Hòa giải",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "包容",
+      "p": "bāo róng",
+      "v": "Bao dung",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "支持",
+      "p": "zhī chí",
+      "v": "Ủng hộ, hỗ trợ",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "帮助",
+      "p": "bāng zhù",
+      "v": "Giúp đỡ",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "合适",
+      "p": "hé shì",
+      "v": "Phù hợp",
+      "t": "quan_he",
+      "l": 4
+    },
+    {
+      "h": "艺术",
+      "p": "yì shù",
+      "v": "Nghệ thuật",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "文学",
+      "p": "wén xué",
+      "v": "Văn học",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "诗歌",
+      "p": "shī gē",
+      "v": "Thơ ca",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "小说",
+      "p": "xiǎo shuō",
+      "v": "Tiểu thuyết",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "戏剧",
+      "p": "xì jù",
+      "v": "Kịch nghệ",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "绘画",
+      "p": "huì huà",
+      "v": "Hội họa",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "雕塑",
+      "p": "diāo sù",
+      "v": "Điêu khắc",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "音乐会",
+      "p": "yīn yuè huì",
+      "v": "Buổi hòa nhạc",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "展览",
+      "p": "zhǎn lǎn",
+      "v": "Triển lãm",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "博物馆",
+      "p": "bó wù guǎn",
+      "v": "Bảo tàng",
+      "t": "van_hoc",
+      "l": 4
+    },
+    {
+      "h": "哲学",
+      "p": "zhé xué",
+      "v": "Triết học",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "逻辑",
+      "p": "luó jí",
+      "v": "Logic, lý luận",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "理论",
+      "p": "lǐ lùn",
+      "v": "Lý thuyết",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "实践",
+      "p": "shí jiàn",
+      "v": "Thực hành",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "抽象",
+      "p": "chōu xiàng",
+      "v": "Trừu tượng",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "具体",
+      "p": "jù tǐ",
+      "v": "Cụ thể",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "客观",
+      "p": "kè guān",
+      "v": "Khách quan",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "主观",
+      "p": "zhǔ guān",
+      "v": "Chủ quan",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "辩证",
+      "p": "biàn zhèng",
+      "v": "Biện chứng",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "矛盾",
+      "p": "máo dùn",
+      "v": "Mâu thuẫn",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "假设",
+      "p": "jiǎ shè",
+      "v": "Giả thiết",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "结论",
+      "p": "jié lùn",
+      "v": "Kết luận",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "分析",
+      "p": "fēn xī",
+      "v": "Phân tích",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "综合",
+      "p": "zōng hé",
+      "v": "Tổng hợp",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "评价",
+      "p": "píng jià",
+      "v": "Đánh giá",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "通货膨胀",
+      "p": "tōng huò péng zhàng",
+      "v": "Lạm phát",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "失业率",
+      "p": "shī yè lǜ",
+      "v": "Tỷ lệ thất nghiệp",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "国内生产总值",
+      "p": "guó nèi shēng chǎn zǒng zhí",
+      "v": "GDP",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "汇率",
+      "p": "huì lǜ",
+      "v": "Tỷ giá hối đoái",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "贸易",
+      "p": "mào yì",
+      "v": "Thương mại",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "出口",
+      "p": "chū kǒu",
+      "v": "Xuất khẩu",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "进口",
+      "p": "jìn kǒu",
+      "v": "Nhập khẩu",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "股票",
+      "p": "gǔ piào",
+      "v": "Cổ phiếu",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "债券",
+      "p": "zhài quàn",
+      "v": "Trái phiếu",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "保险",
+      "p": "bǎo xiǎn",
+      "v": "Bảo hiểm",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "税收",
+      "p": "shuì shōu",
+      "v": "Thuế thu",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "财政",
+      "p": "cái zhèng",
+      "v": "Tài chính (nhà nước)",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "货币",
+      "p": "huò bì",
+      "v": "Tiền tệ",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "经营",
+      "p": "jīng yíng",
+      "v": "Kinh doanh, quản lý",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "企业",
+      "p": "qǐ yè",
+      "v": "Doanh nghiệp",
+      "t": "kinh_te",
+      "l": 5
+    },
+    {
+      "h": "物理",
+      "p": "wù lǐ",
+      "v": "Vật lý",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "化学",
+      "p": "huà xué",
+      "v": "Hóa học",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "生物",
+      "p": "shēng wù",
+      "v": "Sinh vật, sinh học",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "数学",
+      "p": "shù xué",
+      "v": "Toán học",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "天文",
+      "p": "tiān wén",
+      "v": "Thiên văn",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "地理",
+      "p": "dì lǐ",
+      "v": "Địa lý",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "能源",
+      "p": "néng yuán",
+      "v": "Năng lượng",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "太阳能",
+      "p": "tài yáng néng",
+      "v": "Năng lượng mặt trời",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "原子",
+      "p": "yuán zǐ",
+      "v": "Nguyên tử",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "分子",
+      "p": "fēn zǐ",
+      "v": "Phân tử",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "细胞",
+      "p": "xì bāo",
+      "v": "Tế bào",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "基因",
+      "p": "jī yīn",
+      "v": "Gen di truyền",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "进化",
+      "p": "jìn huà",
+      "v": "Tiến hóa",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "实验室",
+      "p": "shí yàn shì",
+      "v": "Phòng thí nghiệm",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "观察",
+      "p": "guān chá",
+      "v": "Quan sát",
+      "t": "khoa_hoc",
+      "l": 5
+    },
+    {
+      "h": "外交",
+      "p": "wài jiāo",
+      "v": "Ngoại giao",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "条约",
+      "p": "tiáo yuē",
+      "v": "Hiệp ước",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "主权",
+      "p": "zhǔ quán",
+      "v": "Chủ quyền",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "联合国",
+      "p": "Lián hé guó",
+      "v": "Liên Hợp Quốc",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "国际",
+      "p": "guó jì",
+      "v": "Quốc tế",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "全球化",
+      "p": "quán qiú huà",
+      "v": "Toàn cầu hóa",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "和平",
+      "p": "hé píng",
+      "v": "Hòa bình",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "战争",
+      "p": "zhàn zhēng",
+      "v": "Chiến tranh",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "冲突",
+      "p": "chōng tū",
+      "v": "Xung đột",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "谈判",
+      "p": "tán pàn",
+      "v": "Đàm phán",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "制裁",
+      "p": "zhì cái",
+      "v": "Trừng phạt, chế tài",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "援助",
+      "p": "yuán zhù",
+      "v": "Viện trợ",
+      "t": "chinh_tri",
+      "l": 5
+    },
+    {
+      "h": "心理",
+      "p": "xīn lǐ",
+      "v": "Tâm lý",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "性格",
+      "p": "xìng gé",
+      "v": "Tính cách",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "情绪",
+      "p": "qíng xù",
+      "v": "Cảm xúc, tâm trạng",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "意识",
+      "p": "yì shí",
+      "v": "Ý thức",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "潜意识",
+      "p": "qián yì shí",
+      "v": "Tiềm thức",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "动机",
+      "p": "dòng jī",
+      "v": "Động cơ",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "行为",
+      "p": "xíng wéi",
+      "v": "Hành vi",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "习惯",
+      "p": "xí guàn",
+      "v": "Thói quen",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "记忆",
+      "p": "jì yì",
+      "v": "Ký ức, trí nhớ",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "注意力",
+      "p": "zhù yì lì",
+      "v": "Sự chú ý",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "自信",
+      "p": "zì xìn",
+      "v": "Tự tin",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "压力",
+      "p": "yā lì",
+      "v": "Áp lực",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "焦虑",
+      "p": "jiāo lǜ",
+      "v": "Lo âu",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "抑郁",
+      "p": "yì yù",
+      "v": "Trầm cảm",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "幸福",
+      "p": "xìng fú",
+      "v": "Hạnh phúc",
+      "t": "tam_ly",
+      "l": 5
+    },
+    {
+      "h": "阐述",
+      "p": "chǎn shù",
+      "v": "Trình bày, giải thích",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "论证",
+      "p": "lùn zhèng",
+      "v": "Lập luận, chứng minh",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "推论",
+      "p": "tuī lùn",
+      "v": "Suy luận",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "概念",
+      "p": "gài niàn",
+      "v": "Khái niệm",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "范畴",
+      "p": "fàn chóu",
+      "v": "Phạm trù",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "本质",
+      "p": "běn zhì",
+      "v": "Bản chất",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "现象",
+      "p": "xiàn xiàng",
+      "v": "Hiện tượng",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "规律",
+      "p": "guī lǜ",
+      "v": "Quy luật",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "机制",
+      "p": "jī zhì",
+      "v": "Cơ chế",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "模式",
+      "p": "mó shì",
+      "v": "Mô hình",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "体系",
+      "p": "tǐ xì",
+      "v": "Hệ thống, thể chế",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "框架",
+      "p": "kuàng jià",
+      "v": "Khung, cơ cấu",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "视角",
+      "p": "shì jiǎo",
+      "v": "Góc nhìn, quan điểm",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "维度",
+      "p": "wéi dù",
+      "v": "Chiều, phương diện",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "层面",
+      "p": "céng miàn",
+      "v": "Tầng, phương diện",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "脉络",
+      "p": "mài luò",
+      "v": "Mạch lạc, logic",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "诠释",
+      "p": "quán shì",
+      "v": "诠释 diễn giải",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "深刻",
+      "p": "shēn kè",
+      "v": "Sâu sắc",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "透彻",
+      "p": "tòu chè",
+      "v": "Thấu đáo",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "精辟",
+      "p": "jīng pì",
+      "v": "Sắc bén, sâu sắc",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "宏观经济",
+      "p": "hóng guān jīng jì",
+      "v": "Kinh tế vĩ mô",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "微观经济",
+      "p": "wēi guān jīng jì",
+      "v": "Kinh tế vi mô",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "供给侧",
+      "p": "gōng jǐ cè",
+      "v": "Phía cung",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "需求侧",
+      "p": "xū qiú cè",
+      "v": "Phía cầu",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "价值链",
+      "p": "jià zhí liàn",
+      "v": "Chuỗi giá trị",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "产业链",
+      "p": "chǎn yè liàn",
+      "v": "Chuỗi sản xuất",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "竞争优势",
+      "p": "jìng zhēng yōu shì",
+      "v": "Lợi thế cạnh tranh",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "市场份额",
+      "p": "shì chǎng fèn é",
+      "v": "Thị phần",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "品牌效应",
+      "p": "pǐn pái xiào yìng",
+      "v": "Hiệu ứng thương hiệu",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "规模经济",
+      "p": "guī mó jīng jì",
+      "v": "Kinh tế theo quy mô",
+      "t": "kinh_te",
+      "l": 6
+    },
+    {
+      "h": "一石二鸟",
+      "p": "yī shí èr niǎo",
+      "v": "Một mũi tên hai đích",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "半途而废",
+      "p": "bàn tú ér fèi",
+      "v": "Bỏ dở giữa chừng",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "马到成功",
+      "p": "mǎ dào chéng gōng",
+      "v": "Thành công ngay lập tức",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "百折不挠",
+      "p": "bǎi zhé bù náo",
+      "v": "Kiên trì bất khuất",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "一帆风顺",
+      "p": "yī fān fēng shùn",
+      "v": "Thuận buồm xuôi gió",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "画龙点睛",
+      "p": "huà lóng diǎn jīng",
+      "v": "Điểm long điểm nhãn",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "守株待兔",
+      "p": "shǒu zhū dài tù",
+      "v": "Ngồi chờ sung rụng",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "亡羊补牢",
+      "p": "wáng yáng bǔ láo",
+      "v": "Mất bò mới lo làm chuồng",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "对牛弹琴",
+      "p": "duì niú tán qín",
+      "v": "Đàn gảy tai trâu",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "欲速则不达",
+      "p": "yù sù zé bù dá",
+      "v": "Dục tốc bất đạt",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "塞翁失马",
+      "p": "sài wēng shī mǎ",
+      "v": "Trong cái rủi có cái may",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "三人行必有我师",
+      "p": "sān rén xíng bì yǒu wǒ shī",
+      "v": "Ba người đi ắt có người là thầy ta",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "不耻下问",
+      "p": "bù chǐ xià wèn",
+      "v": "Không xấu hổ khi hỏi người dưới",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "温故知新",
+      "p": "wēn gù zhī xīn",
+      "v": "Ôn cũ biết mới",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "学而不厌",
+      "p": "xué ér bù yàn",
+      "v": "Học không biết chán",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "天下兴亡匹夫有责",
+      "p": "tiān xià xīng wáng pǐ fū yǒu zé",
+      "v": "Hưng vong của thiên hạ là trách nhiệm mọi người",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "知己知彼",
+      "p": "zhī jǐ zhī bǐ",
+      "v": "Biết mình biết người",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "实事求是",
+      "p": "shí shì qiú shì",
+      "v": "Thực sự cầu thị",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "与时俱进",
+      "p": "yǔ shí jù jìn",
+      "v": "Tiến cùng thời đại",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "和谐共处",
+      "p": "hé xié gòng chǔ",
+      "v": "Cùng tồn tại hòa hợp",
+      "t": "thanh_ngu",
+      "l": 6
+    },
+    {
+      "h": "批判性思维",
+      "p": "pī pàn xìng sī wéi",
+      "v": "Tư duy phản biện",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "创造性思维",
+      "p": "chuàng zào xìng sī wéi",
+      "v": "Tư duy sáng tạo",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "辩证思维",
+      "p": "biàn zhèng sī wéi",
+      "v": "Tư duy biện chứng",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "逻辑推理",
+      "p": "luó jí tuī lǐ",
+      "v": "Suy luận logic",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "归纳法",
+      "p": "guī nà fǎ",
+      "v": "Phương pháp quy nạp",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "演绎法",
+      "p": "yǎn yì fǎ",
+      "v": "Phương pháp diễn dịch",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "类比",
+      "p": "lèi bǐ",
+      "v": "Loại suy, tương tự",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "隐喻",
+      "p": "yǐn yù",
+      "v": "Ẩn dụ",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "象征",
+      "p": "xiàng zhēng",
+      "v": "Biểu tượng",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "反讽",
+      "p": "fǎn fèng",
+      "v": "Phản ngôn, châm biếm",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "上班",
+      "p": "shàng bān",
+      "v": "Đi làm",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "下班",
+      "p": "xià bān",
+      "v": "Tan làm",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "迟到",
+      "p": "chí dào",
+      "v": "Đến trễ",
+      "t": "cong_viec",
+      "l": 2
+    },
+    {
+      "h": "早",
+      "p": "zǎo",
+      "v": "Sớm",
+      "t": "thoi_gian",
+      "l": 2
+    },
+    {
+      "h": "晚",
+      "p": "wǎn",
+      "v": "Muộn, tối",
+      "t": "thoi_gian",
+      "l": 2
+    },
+    {
+      "h": "快",
+      "p": "kuài",
+      "v": "Nhanh",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "慢",
+      "p": "màn",
+      "v": "Chậm",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "长",
+      "p": "cháng",
+      "v": "Dài",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "短",
+      "p": "duǎn",
+      "v": "Ngắn",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "高",
+      "p": "gāo",
+      "v": "Cao",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "矮",
+      "p": "ǎi",
+      "v": "Thấp, lùn",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "重",
+      "p": "zhòng",
+      "v": "Nặng",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "轻",
+      "p": "qīng",
+      "v": "Nhẹ",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "新",
+      "p": "xīn",
+      "v": "Mới",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "旧",
+      "p": "jiù",
+      "v": "Cũ",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "胖",
+      "p": "pàng",
+      "v": "Mập, béo",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "瘦",
+      "p": "shòu",
+      "v": "Gầy",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "忙",
+      "p": "máng",
+      "v": "Bận rộn",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "累",
+      "p": "lèi",
+      "v": "Mệt",
+      "t": "tinh_tu",
+      "l": 2
+    },
+    {
+      "h": "饿",
+      "p": "è",
+      "v": "Đói",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "渴",
+      "p": "kě",
+      "v": "Khát",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "饱",
+      "p": "bǎo",
+      "v": "No",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "香",
+      "p": "xiāng",
+      "v": "Thơm, ngon",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "甜",
+      "p": "tián",
+      "v": "Ngọt",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "酸",
+      "p": "suān",
+      "v": "Chua",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "苦",
+      "p": "kǔ",
+      "v": "Đắng",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "辣",
+      "p": "là",
+      "v": "Cay",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "咸",
+      "p": "xián",
+      "v": "Mặn",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "猪肉",
+      "p": "zhū ròu",
+      "v": "Thịt lợn",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "牛肉",
+      "p": "niú ròu",
+      "v": "Thịt bò",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "鸡肉",
+      "p": "jī ròu",
+      "v": "Thịt gà",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "蔬菜",
+      "p": "shū cài",
+      "v": "Rau củ",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "水果",
+      "p": "shuǐ guǒ",
+      "v": "Hoa quả",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "香蕉",
+      "p": "xiāng jiāo",
+      "v": "Chuối",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "橙子",
+      "p": "chéng zi",
+      "v": "Cam",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "西瓜",
+      "p": "xī guā",
+      "v": "Dưa hấu",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "面包",
+      "p": "miàn bāo",
+      "v": "Bánh mì",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "包子",
+      "p": "bāo zi",
+      "v": "Bánh bao",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "饺子",
+      "p": "jiǎo zi",
+      "v": "Bánh sủi cảo",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "汤",
+      "p": "tāng",
+      "v": "Canh, súp",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "菜",
+      "p": "cài",
+      "v": "Món ăn, rau",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "盐",
+      "p": "yán",
+      "v": "Muối",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "糖",
+      "p": "táng",
+      "v": "Đường",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "油",
+      "p": "yóu",
+      "v": "Dầu",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "碗",
+      "p": "wǎn",
+      "v": "Bát, tô",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "筷子",
+      "p": "kuài zi",
+      "v": "Đũa",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "勺子",
+      "p": "sháo zi",
+      "v": "Thìa",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "叉子",
+      "p": "chā zi",
+      "v": "Nĩa",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "盘子",
+      "p": "pán zi",
+      "v": "Đĩa",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "杯子",
+      "p": "bēi zi",
+      "v": "Cốc, ly",
+      "t": "am_thuc",
+      "l": 2
+    },
+    {
+      "h": "房间",
+      "p": "fáng jiān",
+      "v": "Phòng",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "客厅",
+      "p": "kè tīng",
+      "v": "Phòng khách",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "卧室",
+      "p": "wò shì",
+      "v": "Phòng ngủ",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "厨房",
+      "p": "chú fáng",
+      "v": "Nhà bếp",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "卫生间",
+      "p": "wèi shēng jiān",
+      "v": "Nhà vệ sinh",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "桌子",
+      "p": "zhuō zi",
+      "v": "Bàn",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "椅子",
+      "p": "yǐ zi",
+      "v": "Ghế",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "床",
+      "p": "chuáng",
+      "v": "Giường",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "窗户",
+      "p": "chuāng hu",
+      "v": "Cửa sổ",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "门",
+      "p": "mén",
+      "v": "Cửa",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "楼",
+      "p": "lóu",
+      "v": "Tòa nhà, tầng",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "电梯",
+      "p": "diàn tī",
+      "v": "Thang máy",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "空调",
+      "p": "kōng tiáo",
+      "v": "Máy điều hòa",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "冰箱",
+      "p": "bīng xiāng",
+      "v": "Tủ lạnh",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "洗衣机",
+      "p": "xǐ yī jī",
+      "v": "Máy giặt",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "电话",
+      "p": "diàn huà",
+      "v": "Điện thoại",
+      "t": "nha_cua",
+      "l": 2
+    },
+    {
+      "h": "街道",
+      "p": "jiē dào",
+      "v": "Phố, đường",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "广场",
+      "p": "guǎng chǎng",
+      "v": "Quảng trường",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "公园",
+      "p": "gōng yuán",
+      "v": "Công viên",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "超市",
+      "p": "chāo shì",
+      "v": "Siêu thị",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "邮局",
+      "p": "yóu jú",
+      "v": "Bưu điện",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "派出所",
+      "p": "pài chū suǒ",
+      "v": "Đồn cảnh sát",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "加油站",
+      "p": "jiā yóu zhàn",
+      "v": "Trạm xăng",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "停车场",
+      "p": "tíng chē chǎng",
+      "v": "Bãi đậu xe",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "机场",
+      "p": "jī chǎng",
+      "v": "Sân bay",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "港口",
+      "p": "gǎng kǒu",
+      "v": "Cảng biển",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "博物馆",
+      "p": "bó wù guǎn",
+      "v": "Bảo tàng",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "图书馆",
+      "p": "tú shū guǎn",
+      "v": "Thư viện",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "体育馆",
+      "p": "tǐ yù guǎn",
+      "v": "Phòng thể dục",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "游泳池",
+      "p": "yóu yǒng chí",
+      "v": "Bể bơi",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "电影院",
+      "p": "diàn yǐng yuàn",
+      "v": "Rạp chiếu phim",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "剧场",
+      "p": "jù chǎng",
+      "v": "Nhà hát",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "寺庙",
+      "p": "sì miào",
+      "v": "Chùa, đền",
+      "t": "dia_diem",
+      "l": 3
+    },
+    {
+      "h": "爷爷",
+      "p": "yé ye",
+      "v": "Ông nội",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "奶奶",
+      "p": "nǎi nai",
+      "v": "Bà nội",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "外公",
+      "p": "wài gōng",
+      "v": "Ông ngoại",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "外婆",
+      "p": "wài pó",
+      "v": "Bà ngoại",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "叔叔",
+      "p": "shū shu",
+      "v": "Chú (em trai của bố)",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "阿姨",
+      "p": "ā yí",
+      "v": "Dì (em gái của mẹ)",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "伯伯",
+      "p": "bó bo",
+      "v": "Bác (anh trai của bố)",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "孙子",
+      "p": "sūn zi",
+      "v": "Cháu trai (nội)",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "孙女",
+      "p": "sūn nǚ",
+      "v": "Cháu gái (nội)",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "丈夫",
+      "p": "zhàng fu",
+      "v": "Chồng",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "妻子",
+      "p": "qī zi",
+      "v": "Vợ",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "父母",
+      "p": "fù mǔ",
+      "v": "Cha mẹ",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "孩子",
+      "p": "hái zi",
+      "v": "Trẻ em, con cái",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "邻居",
+      "p": "lín jū",
+      "v": "Hàng xóm",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "同学",
+      "p": "tóng xué",
+      "v": "Bạn học",
+      "t": "gia_dinh",
+      "l": 3
+    },
+    {
+      "h": "解决",
+      "p": "jiě jué",
+      "v": "Giải quyết",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "完成",
+      "p": "wán chéng",
+      "v": "Hoàn thành",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "提高",
+      "p": "tí gāo",
+      "v": "Nâng cao",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "降低",
+      "p": "jiàng dī",
+      "v": "Giảm xuống",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "增加",
+      "p": "zēng jiā",
+      "v": "Tăng thêm",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "减少",
+      "p": "jiǎn shǎo",
+      "v": "Giảm bớt",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "参加",
+      "p": "cān jiā",
+      "v": "Tham gia",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "举行",
+      "p": "jǔ xíng",
+      "v": "Tổ chức, tiến hành",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "安排",
+      "p": "ān pái",
+      "v": "Sắp xếp",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "准备",
+      "p": "zhǔn bèi",
+      "v": "Chuẩn bị",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "决定",
+      "p": "jué dìng",
+      "v": "Quyết định",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "选择",
+      "p": "xuǎn zé",
+      "v": "Lựa chọn",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "建议",
+      "p": "jiàn yì",
+      "v": "Đề xuất, kiến nghị",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "回答",
+      "p": "huí dá",
+      "v": "Trả lời",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "提问",
+      "p": "tí wèn",
+      "v": "Đặt câu hỏi",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "翻译",
+      "p": "fān yì",
+      "v": "Dịch",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "介绍",
+      "p": "jiè shào",
+      "v": "Giới thiệu",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "联系",
+      "p": "lián xì",
+      "v": "Liên hệ, liên lạc",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "拒绝",
+      "p": "jù jué",
+      "v": "Từ chối",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "同意",
+      "p": "tóng yì",
+      "v": "Đồng ý",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "反对",
+      "p": "fǎn duì",
+      "v": "Phản đối",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "放弃",
+      "p": "fàng qì",
+      "v": "Từ bỏ",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "坚持",
+      "p": "jiān chí",
+      "v": "Kiên trì",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "改变",
+      "p": "gǎi biàn",
+      "v": "Thay đổi",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "发现",
+      "p": "fā xiàn",
+      "v": "Phát hiện",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "注意",
+      "p": "zhù yì",
+      "v": "Chú ý",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "控制",
+      "p": "kòng zhì",
+      "v": "Kiểm soát",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "影响",
+      "p": "yǐng xiǎng",
+      "v": "Ảnh hưởng",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "比较",
+      "p": "bǐ jiào",
+      "v": "So sánh",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "表示",
+      "p": "biǎo shì",
+      "v": "Biểu thị, thể hiện",
+      "t": "dong_tu",
+      "l": 3
+    },
+    {
+      "h": "罪犯",
+      "p": "zuì fàn",
+      "v": "Tội phạm",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "法官",
+      "p": "fǎ guān",
+      "v": "Thẩm phán",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "律师",
+      "p": "lǜ shī",
+      "v": "Luật sư",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "警察",
+      "p": "jǐng chá",
+      "v": "Cảnh sát",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "监狱",
+      "p": "jiān yù",
+      "v": "Nhà tù",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "证据",
+      "p": "zhèng jù",
+      "v": "Bằng chứng",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "审判",
+      "p": "shěn pàn",
+      "v": "Xét xử",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "判决",
+      "p": "pàn jué",
+      "v": "Phán quyết",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "违法",
+      "p": "wéi fǎ",
+      "v": "Vi phạm pháp luật",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "合法",
+      "p": "hé fǎ",
+      "v": "Hợp pháp",
+      "t": "xa_hoi",
+      "l": 4
+    },
+    {
+      "h": "建筑",
+      "p": "jiàn zhù",
+      "v": "Kiến trúc, công trình",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "城市",
+      "p": "chéng shì",
+      "v": "Thành phố",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "农村",
+      "p": "nóng cūn",
+      "v": "Nông thôn",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "社区",
+      "p": "shè qū",
+      "v": "Cộng đồng",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "人口",
+      "p": "rén kǒu",
+      "v": "Dân số",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "交通",
+      "p": "jiāo tōng",
+      "v": "Giao thông",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "堵车",
+      "p": "dǔ chē",
+      "v": "Tắc đường",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "地震",
+      "p": "dì zhèn",
+      "v": "Động đất",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "洪水",
+      "p": "hóng shuǐ",
+      "v": "Lũ lụt",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "台风",
+      "p": "tái fēng",
+      "v": "Bão",
+      "t": "kien_truc",
+      "l": 4
+    },
+    {
+      "h": "存在",
+      "p": "cún zài",
+      "v": "Tồn tại",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "意义",
+      "p": "yì yì",
+      "v": "Ý nghĩa",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "价值观",
+      "p": "jià zhí guān",
+      "v": "Quan điểm giá trị",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "世界观",
+      "p": "shì jiè guān",
+      "v": "Thế giới quan",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "人生观",
+      "p": "rén shēng guān",
+      "v": "Nhân sinh quan",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "辩论",
+      "p": "biàn lùn",
+      "v": "Tranh luận",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "争议",
+      "p": "zhēng yì",
+      "v": "Tranh cãi",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "共识",
+      "p": "gòng shí",
+      "v": "Đồng thuận",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "分歧",
+      "p": "fēn qí",
+      "v": "Bất đồng",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "启示",
+      "p": "qǐ shì",
+      "v": "Gợi ý, khải thị",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "感悟",
+      "p": "gǎn wù",
+      "v": "Cảm ngộ, chiêm nghiệm",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "反思",
+      "p": "fǎn sī",
+      "v": "Phản tư, suy ngẫm lại",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "创造力",
+      "p": "chuàng zào lì",
+      "v": "Sức sáng tạo",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "想象力",
+      "p": "xiǎng xiàng lì",
+      "v": "Trí tưởng tượng",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "批判",
+      "p": "pī pàn",
+      "v": "Phê phán",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "探索",
+      "p": "tàn suǒ",
+      "v": "Khám phá",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "突破",
+      "p": "tū pò",
+      "v": "Đột phá",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "挑战",
+      "p": "tiǎo zhàn",
+      "v": "Thách thức",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "机遇",
+      "p": "jī yù",
+      "v": "Cơ hội",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "困境",
+      "p": "kùn jìng",
+      "v": "Khó khăn, tình huống khó xử",
+      "t": "hoc_thuat",
+      "l": 5
+    },
+    {
+      "h": "气候变化",
+      "p": "qì hòu biàn huà",
+      "v": "Biến đổi khí hậu",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "碳排放",
+      "p": "tàn pái fàng",
+      "v": "Phát thải carbon",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "可再生能源",
+      "p": "kě zài shēng néng yuán",
+      "v": "Năng lượng tái tạo",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "生物多样性",
+      "p": "shēng wù duō yàng xìng",
+      "v": "Đa dạng sinh học",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "生态系统",
+      "p": "shēng tài xì tǒng",
+      "v": "Hệ sinh thái",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "沙漠化",
+      "p": "shā mò huà",
+      "v": "Sa mạc hóa",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "森林砍伐",
+      "p": "sēn lín kǎn fá",
+      "v": "Phá rừng",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "海平面上升",
+      "p": "hǎi píng miàn shàng shēng",
+      "v": "Mực nước biển dâng",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "濒危物种",
+      "p": "bīn wēi wù zhǒng",
+      "v": "Loài động vật có nguy cơ tuyệt chủng",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "循环利用",
+      "p": "xún huán lì yòng",
+      "v": "Tái chế",
+      "t": "thien_nhien",
+      "l": 5
+    },
+    {
+      "h": "领导力",
+      "p": "lǐng dǎo lì",
+      "v": "Năng lực lãnh đạo",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "决策",
+      "p": "jué cè",
+      "v": "Ra quyết định",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "战略",
+      "p": "zhàn lüè",
+      "v": "Chiến lược",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "执行力",
+      "p": "zhí xíng lì",
+      "v": "Năng lực thực thi",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "团队合作",
+      "p": "tuán duì hé zuò",
+      "v": "Làm việc nhóm",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "组织",
+      "p": "zǔ zhī",
+      "v": "Tổ chức",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "协调",
+      "p": "xié tiáo",
+      "v": "Phối hợp",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "监督",
+      "p": "jiān dū",
+      "v": "Giám sát",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "评估",
+      "p": "píng gū",
+      "v": "Đánh giá",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "绩效",
+      "p": "jì xiào",
+      "v": "Hiệu suất, thành tích",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "激励",
+      "p": "jī lì",
+      "v": "Kích thích, khuyến khích",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "授权",
+      "p": "shòu quán",
+      "v": "Ủy quyền",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "问责",
+      "p": "wèn zé",
+      "v": "Truy cứu trách nhiệm",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "透明度",
+      "p": "tòu míng dù",
+      "v": "Tính minh bạch",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "可持续发展",
+      "p": "kě chí xù fā zhǎn",
+      "v": "Phát triển bền vững",
+      "t": "quan_ly",
+      "l": 6
+    },
+    {
+      "h": "范式",
+      "p": "fàn shì",
+      "v": "Mô thức",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "解构",
+      "p": "jiě gòu",
+      "v": "Giải cấu trúc",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "建构",
+      "p": "jiàn gòu",
+      "v": "Kiến tạo",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "诠释学",
+      "p": "quán shì xué",
+      "v": "Thuyết giải thích học",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "认识论",
+      "p": "rèn shí lùn",
+      "v": "Nhận thức luận",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "本体论",
+      "p": "běn tǐ lùn",
+      "v": "Bản thể luận",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "方法论",
+      "p": "fāng fǎ lùn",
+      "v": "Phương pháp luận",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "话语权",
+      "p": "huà yǔ quán",
+      "v": "Quyền lên tiếng",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "叙事",
+      "p": "xù shì",
+      "v": "Tường thuật",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "语境",
+      "p": "yǔ jìng",
+      "v": "Ngữ cảnh",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "阐释",
+      "p": "chǎn shì",
+      "v": "Giải thích, diễn giải",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "批评",
+      "p": "pī píng",
+      "v": "Phê bình",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "审美",
+      "p": "shěn měi",
+      "v": "Thẩm mỹ",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "意识形态",
+      "p": "yì shí xíng tài",
+      "v": "Ý thức hệ",
+      "t": "hoc_thuat",
+      "l": 6
+    },
+    {
+      "h": "权力结构",
+      "p": "quán lì jié gòu",
+      "v": "Cấu trúc quyền lực",
+      "t": "hoc_thuat",
+      "l": 6
+    }
+  ]
+}
