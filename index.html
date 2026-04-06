@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>汉字学 - Học Tiếng Trung</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ==================== LOGIN SCREEN ==================== -->
+<div id="login-screen" class="login-screen">
+  <div class="login-card">
+    <div class="login-logo">汉<span>字学</span></div>
+    <div class="login-sub">Ứng dụng học tiếng Trung thông minh</div>
+    <div id="login-form">
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input class="form-input" id="login-email" type="email" placeholder="email@example.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Mật khẩu</label>
+        <input class="form-input" id="login-pass" type="password" placeholder="••••••••">
+      </div>
+      <div id="login-error" class="form-error" style="display:none"></div>
+      <button class="btn-primary" onclick="App.login()">Đăng nhập</button>
+      <div class="login-switch">Chưa có tài khoản? <a onclick="App.showRegister()">Đăng ký ngay</a></div>
+    </div>
+    <div id="register-form" style="display:none">
+      <div class="form-group">
+        <label class="form-label">Tên của bạn</label>
+        <input class="form-input" id="reg-name" placeholder="Nguyễn Văn A">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input class="form-input" id="reg-email" type="email" placeholder="email@example.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Mật khẩu</label>
+        <input class="form-input" id="reg-pass" type="password" placeholder="Tạo mật khẩu (6+ ký tự)">
+      </div>
+      <div id="reg-error" class="form-error" style="display:none"></div>
+      <button class="btn-primary" onclick="App.register()">Tạo tài khoản</button>
+      <div class="login-switch">Đã có tài khoản? <a onclick="App.showLogin()">Đăng nhập</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== MAIN APP ==================== -->
+<div id="main-app" style="display:none">
+
+  <!-- TOP NAV -->
+  <div class="nav">
+    <div class="nav-logo">汉<span>字学</span></div>
+    <div class="nav-user">
+      <div class="avatar" id="nav-avatar">A</div>
+      <span id="nav-name">Người dùng</span>
+      <button class="logout-btn" onclick="App.logout()">Đăng xuất</button>
+    </div>
+  </div>
+
+  <!-- LAYOUT -->
+  <div class="layout">
+
+    <!-- SIDEBAR (desktop) -->
+    <div class="sidebar">
+      <div class="sidebar-section">Học tập</div>
+      <div class="sidebar-item active" id="sb-home" onclick="App.showScreen('home')">
+        <span class="si-icon">🏠</span> Tổng quan
+      </div>
+      <div class="sidebar-item" id="sb-study" onclick="App.showScreen('topics')">
+        <span class="si-icon">📚</span> Học từ vựng
+      </div>
+      <div class="sidebar-item" id="sb-quiz" onclick="App.showScreen('quiz-select')">
+        <span class="si-icon">✏️</span> Kiểm tra
+      </div>
+      <div class="sidebar-section">Quản lý</div>
+      <div class="sidebar-item" id="sb-learned" onclick="App.showScreen('learned')">
+        <span class="si-icon">⭐</span> Từ đã học
+      </div>
+      <div class="sidebar-item" id="sb-progress" onclick="App.showScreen('progress')">
+        <span class="si-icon">📊</span> Tiến độ
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main" id="main-content">
+
+      <!-- ===== HOME ===== -->
+      <div id="screen-home" class="screen active">
+        <div class="page-greeting">
+          <div class="greeting-text">Chào, <span id="home-username">bạn</span>! 👋</div>
+          <div class="greeting-sub">Hôm nay học thêm vài từ nhé?</div>
+        </div>
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-label">Tổng đã học</div>
+            <div class="stat-value red" id="stat-total">0</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Hôm nay</div>
+            <div class="stat-value teal" id="stat-today">0</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Chuỗi ngày</div>
+            <div class="stat-value" id="stat-streak">0 🔥</div>
+          </div>
+        </div>
+        <div class="section-title">Chủ đề nổi bật</div>
+        <div class="topic-grid" id="home-topics"></div>
+        <div class="promo-banner" onclick="App.showScreen('quiz-select')">
+          <span class="promo-icon">✏️</span>
+          <div>
+            <div class="promo-title">Sẵn sàng kiểm tra?</div>
+            <div class="promo-sub">Ôn lại <span id="home-quiz-count">0</span> từ đã học →</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== TOPICS ===== -->
+      <div id="screen-topics" class="screen">
+        <div class="screen-header">
+          <div class="screen-title">Chọn chủ đề học</div>
+          <div class="hsk-filters" id="hsk-filters"></div>
+        </div>
+        <div class="topic-grid" id="all-topics"></div>
+      </div>
+
+      <!-- ===== STUDY ===== -->
+      <div id="screen-study" class="screen">
+        <div class="study-header">
+          <button class="back-btn" onclick="App.showScreen('topics')">← Quay lại</button>
+          <div class="study-progress-wrap">
+            <div class="study-progress-bar">
+              <div class="study-progress-fill" id="study-prog-fill" style="width:0%"></div>
+            </div>
+            <div class="study-prog-text" id="study-count">0 / 0</div>
+          </div>
+        </div>
+        <div class="study-topic-label" id="study-topic-label"></div>
+
+        <!-- Visibility toggles -->
+        <div class="visibility-toggles">
+          <button class="vis-btn active" id="vis-hz" onclick="App.toggleVis('hz')">汉字</button>
+          <button class="vis-btn active" id="vis-py" onclick="App.toggleVis('py')">Pinyin</button>
+          <button class="vis-btn active" id="vis-vn" onclick="App.toggleVis('vn')">Tiếng Việt</button>
+        </div>
+
+        <!-- Flashcard -->
+        <div class="flashcard" id="flashcard" onclick="App.speakCurrent()">
+          <div class="fc-hanzi" id="fc-hanzi">你好</div>
+          <div class="fc-pinyin" id="fc-pinyin">nǐ hǎo</div>
+          <div class="fc-meaning" id="fc-meaning">Xin chào</div>
+          <div class="fc-hint">Nhấn để nghe phát âm 🔊</div>
+        </div>
+
+        <div class="card-actions">
+          <button class="btn-relearn" onclick="App.markWord(false)">
+            🔄 Học lại sau
+          </button>
+          <button class="btn-known" onclick="App.markWord(true)">
+            ✓ Đã nhớ
+          </button>
+        </div>
+
+        <!-- Already learned notice -->
+        <div class="study-done-notice" id="study-done-notice" style="display:none">
+          <div class="done-icon">🎉</div>
+          <div class="done-title">Hoàn thành chủ đề!</div>
+          <div class="done-sub" id="done-sub-text"></div>
+          <button class="btn-primary" style="margin-top:1rem;" onclick="App.showScreen('topics')">Chọn chủ đề khác</button>
+        </div>
+      </div>
+
+      <!-- ===== QUIZ SELECT ===== -->
+      <div id="screen-quiz-select" class="screen">
+        <div class="screen-title" style="margin-bottom:1.5rem;">Chọn bài kiểm tra</div>
+        <div id="quiz-no-words" class="empty-notice" style="display:none">
+          ⚠️ Bạn cần học ít nhất 4 từ trước khi kiểm tra!
+        </div>
+        <div id="quiz-mode-list" class="quiz-mode-list"></div>
+      </div>
+
+      <!-- ===== QUIZ ===== -->
+      <div id="screen-quiz" class="screen">
+        <div class="study-header">
+          <button class="back-btn" onclick="App.showScreen('quiz-select')">← Thoát</button>
+          <div class="study-progress-wrap">
+            <div class="study-progress-bar">
+              <div class="study-progress-fill" id="quiz-prog-fill" style="width:0%"></div>
+            </div>
+            <div class="study-prog-text" id="quiz-count-text">0 / 10</div>
+          </div>
+        </div>
+        <div class="quiz-card">
+          <div class="quiz-hanzi" id="q-hanzi"></div>
+          <div class="quiz-pinyin" id="q-pinyin"></div>
+          <div class="quiz-instruction">Chọn nghĩa đúng:</div>
+          <div class="quiz-options" id="quiz-options"></div>
+        </div>
+      </div>
+
+      <!-- ===== QUIZ RESULT ===== -->
+      <div id="screen-quiz-result" class="screen">
+        <div class="result-card">
+          <div class="result-emoji" id="res-emoji">🎉</div>
+          <div class="result-score" id="res-score">8/10</div>
+          <div class="result-msg" id="res-msg">Xuất sắc!</div>
+          <div class="stats-row" style="margin:1.5rem 0;">
+            <div class="stat-card"><div class="stat-label">Đúng</div><div class="stat-value teal" id="res-correct">0</div></div>
+            <div class="stat-card"><div class="stat-label">Sai</div><div class="stat-value red" id="res-wrong">0</div></div>
+            <div class="stat-card"><div class="stat-label">Tỉ lệ</div><div class="stat-value" id="res-pct">0%</div></div>
+          </div>
+          <button class="btn-primary" onclick="App.showScreen('quiz-select')" style="margin-bottom:8px;">Kiểm tra lại</button>
+          <button class="btn-secondary" onclick="App.showScreen('home')">Về trang chủ</button>
+        </div>
+      </div>
+
+      <!-- ===== LEARNED ===== -->
+      <div id="screen-learned" class="screen">
+        <div class="screen-header">
+          <div class="screen-title">Từ đã học (<span id="learned-total">0</span>)</div>
+          <input class="search-input" id="learned-search" placeholder="🔍 Tìm từ..." oninput="App.renderLearnedList()">
+        </div>
+        <div class="filter-bar" id="learned-filters"></div>
+        <div id="learned-list-wrap"></div>
+      </div>
+
+      <!-- ===== PROGRESS ===== -->
+      <div id="screen-progress" class="screen">
+        <div class="screen-title" style="margin-bottom:1.5rem;">Tiến độ học tập</div>
+        <div class="stats-row" style="margin-bottom:1.5rem;">
+          <div class="stat-card"><div class="stat-label">Tổng đã học</div><div class="stat-value red" id="prog-total">0</div></div>
+          <div class="stat-card"><div class="stat-label">Hôm nay</div><div class="stat-value teal" id="prog-today">0</div></div>
+          <div class="stat-card"><div class="stat-label">Số lần thi</div><div class="stat-value" id="prog-quizzes">0</div></div>
+        </div>
+        <div class="section-title" style="margin-bottom:1rem;">Tiến độ theo chủ đề</div>
+        <div id="topic-progress-wrap"></div>
+        <div class="section-title" style="margin:1.5rem 0 1rem;">Phân bổ theo cấp HSK</div>
+        <div id="hsk-progress-wrap"></div>
+      </div>
+
+    </div><!-- /main -->
+  </div><!-- /layout -->
+
+  <!-- BOTTOM NAV (mobile) -->
+  <div class="bottom-nav">
+    <div class="bn-item active" id="bn-home" onclick="App.showScreen('home')">
+      <span class="bn-icon">🏠</span><span class="bn-label">Tổng quan</span>
+    </div>
+    <div class="bn-item" id="bn-study" onclick="App.showScreen('topics')">
+      <span class="bn-icon">📚</span><span class="bn-label">Học</span>
+    </div>
+    <div class="bn-item" id="bn-quiz" onclick="App.showScreen('quiz-select')">
+      <span class="bn-icon">✏️</span><span class="bn-label">Kiểm tra</span>
+    </div>
+    <div class="bn-item" id="bn-learned" onclick="App.showScreen('learned')">
+      <span class="bn-icon">⭐</span><span class="bn-label">Đã học</span>
+    </div>
+  </div>
+
+</div><!-- /main-app -->
+
+<script src="js/app.js"></script>
+</body>
+</html>
